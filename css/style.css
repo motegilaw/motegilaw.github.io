@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'NexaBold';
+    src: url('/fonts/NexaBold.eot?') format('eot'), 
+         url('/fonts/NexaBold.otf')  format('opentype'),
+         url('/fonts/NexaBold.woff') format('woff'), 
+         url('/fonts/NexaBold.ttf')  format('truetype'),
+         url('/fonts/NexaBold.svg#NexaBold') format('svg');
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('/fonts/NexaLight.eot?') format('eot'), 
+         url('/fonts/NexaLight.otf')  format('opentype'),
+         url('/fonts/NexaLight.woff') format('woff'), 
+         url('/fonts/NexaLight.ttf')  format('truetype'),
+         url('/fonts/NexaLight.svg#NexaLight') format('svg');
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'NexaLight', sans-serif;
+    font-size: 18px;
+    color: #1e376d;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.f-topbar-fixed {
+    padding-top: inherit !important;
+}
+
+.top-bar {
+    background-color: white;
+}
+
+.top-bar .name h1 a {
+    color: #1e376d;
+}
+
+.top-bar.expanded .title-area {
+    background-color: white;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: white;
+    color: #1e376d;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: white;
+    color: #1e376d;
+    text-decoration: underline;
+}
+
+.top-bar .toggle-topbar.menu-icon a {
+    color: #1e376d;
+}
+
+.top-bar .toggle-topbar.menu-icon a:after {
+    box-shadow: 0px 10px 0px 1px #1e376d, 0px 16px 0px 1px #1e376d, 0px 22px 0px 1px #1e376d;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+.row {
+    padding: 32px 0;
+}
+
+.width-100 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.dark-blue-bg {
+    background: #1e376d;
+}
+
+.tile-bg {
+    background: url('/img/tile.png') repeat;
+}
+
+.white, .white:hover, .white:active, .white:visited {
+    color: white;
+}
+
+#hero {
+    height: 100%;
+    position: relative;
+}
+
+#blog {
+    padding: 36px 0;
+}
+
+#hero-logo {
+    padding: 72px 0 36px 0;
+    max-width: 75%;
+}
+
+#arrow {
+    position: absolute;
+    bottom: 5%;
+}
+
+#contact a {
+    color: #1e376d;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

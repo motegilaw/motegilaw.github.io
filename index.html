@@ -1,0 +1,9 @@
+---
+layout: blog
+title: Motegi Law
+---
+
+{% for post in site.posts %}
+    <h5><a href="{{ post.url }}">{{ post.title }}</a>{{ page.home }}</h5>
+    <p>{{ post.content|truncatewords:200 }}</p>
+{% endfor %}
